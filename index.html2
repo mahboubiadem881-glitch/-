@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مطعم المشاوي</title>
+<style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fff; }
+    header { background:#b22222; color:white; padding:20px; text-align:center; }
+    nav { display:flex; justify-content:center; gap:15px; background:#800000; }
+    nav a { color:white; text-decoration:none; padding:10px; }
+    nav a:hover { background:#ff6347; border-radius:5px; }
+    .hero { background:url('https://source.unsplash.com/1600x600/?bbq') center/cover no-repeat; height:400px; display:flex; align-items:center; justify-content:center; color:white; font-size:2em; text-shadow:2px 2px 4px #000; }
+    .content { padding:20px; text-align:center; }
+    .menu { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; margin-top:20px; }
+    .menu-item { border:1px solid #ddd; border-radius:10px; padding:10px; }
+    footer { background:#800000; color:white; padding:10px; text-align:center; margin-top:20px; }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>مطعم المشاوي</h1>
+</header>
+
+<nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#menu">قائمة الأطباق</a>
+    <a href="#about">من نحن</a>
+    <a href="#contact">اتصل بنا</a>
+    <a href="#gallery">معرض الصور</a>
+</nav>
+
+<section id="home" class="hero">
+    أهلا بكم في مطعمنا
+</section>
+
+<section id="menu" class="content">
+    <h2>قائمة الأطباق</h2>
+    <div class="menu">
+        <div class="menu-item">
+            <img src="https://source.unsplash.com/200x150/?grill" alt="شواء لحم">
+            <h3>شواء لحم</h3>
+            <p>السعر: 2000 دج</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://source.unsplash.com/200x150/?chicken" alt="شواء دجاج">
+            <h3>شواء دجاج</h3>
+            <p>السعر: 1500 دج</p>
+        </div>
+        <!-- زيد أطباق أخرى هنا -->
+    </div>
+</section>
+
+<section id="about" class="content">
+    <h2>من نحن</h2>
+    <p>مطعم المشاوي يقدم ألذ الأطباق المشوية على الطريقة التقليدية مع أجواء عائلية مميزة.</p>
+</section>
+
+<section id="contact" class="content">
+    <h2>اتصل بنا</h2>
+    <p>العنوان: شارع 123، عنابة، الجزائر</p>
+    <p>الهاتف: 0555-123-456</p>
+    <iframe src="https://www.google.com/maps?q=Annaba+Algeria&output=embed" width="100%" height="300" style="border:0;"></iframe>
+</section>
+
+<section id="gallery" class="content">
+    <h2>معرض الصور</h2>
+    <img src="https://source.unsplash.com/300x200/?bbq,food" alt="مشاوي 1" style="margin:5px;">
+    <img src="https://source.unsplash.com/300x200/?grill,restaurant" alt="مشاوي 2" style="margin:5px;">
+    <img src="https://source.unsplash.com/300x200/?meat" alt="مشاوي 3" style="margin:5px;">
+</section>
+
+<footer>
+    جميع الحقوق محفوظة © 2026 مطعم المشاوي
+</footer>
+
+</body>
+</html>
